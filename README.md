@@ -19,9 +19,12 @@ State diagram for coffee supply chain project
 https://github.com/get2shailesh/ND1309-Supplychain-P3/blob/main/UML-DrawIO/statediagram.png
 
 Domain model Interfaces
-•	AccessControl - Collection of Contracts: These contracts manages the various addresses and constraints for operations that can be executed only by specific roles.
-•	Base - SupplyChain.sol: This is where we define the most fundamental code shared throughout the core functionality. This includes our main data storage, constants and data types, plus internal functions for managing these items.
-•	Core - Ownable.sol: is the contract that controls ownership and transfer of ownership.
+
+AccessControl - Collection of Contracts: These contracts manages the various addresses and constraints for operations that can be executed only by specific roles.
+
+Base - SupplyChain.sol: This is where we define the most fundamental code shared throughout the core functionality. This includes our main data storage, constants and data types, plus internal functions for managing these items.
+
+Core - Ownable.sol: is the contract that controls ownership and transfer of ownership.
 
 UML – Class diagram for the coffee supply chain project
 
@@ -352,23 +355,37 @@ Consumer: accounts[4]  0xD37b7B8C62BE2fdDe8dAa9816483AeBDBd356088
 
 
 Results:
+
 Task 1: Boiler plate code has been successfully modified per the project instructions and the code for the project is uploaded here:
+
 Task 2: All test cases were successful. Log provided above.
+
 Task 3: Contract was deployed on Goerli network. Following is the latest:
+
 •	“Contract Address” on the Goerli Network:
+
 •	https://goerli.etherscan.io/address/0x8c7E1c25df2e4f51d8A8F5b4c1888401C33A2F60
+
 •	Contract: 0x8c7E1c25df2e4f51d8A8F5b4c1888401C33A2F60
+
 [The following details are from the initial contract deployment for initial submission, as per the feedback, I have re-deployed the contract]
+
 •	Initial “Contract Address” on the Goerli Network:
+
 https://goerli.etherscan.io/address/0xFB1e9CF1D94fb443a07aA84DB5FAd869784dCa55
-•	Initial Contract for reference: 
-0xFB1e9CF1D94fb443a07aA84DB5FAd869784dCa55]
+
+•	Initial Contract for reference: 0xFB1e9CF1D94fb443a07aA84DB5FAd869784dCa55]
+
 Task 4: The application was successfully invoked to perform certain functions.
+
 Account set up in Metamask using mnemonic provided (I had collected GoerliETH for this project using testnet faucets and distributed across the accounts for using it.) 
+
 https://github.com/get2shailesh/ND1309-Supplychain-P3/blob/main/images/AccountSetup.png
 
 Task 5: The application was successfully invoked and started.
+
 Running command npm run dev invokes the coffee app and it is connected to owner account for ETH transactions.
+
 https://github.com/get2shailesh/ND1309-Supplychain-P3/blob/main/images/UIview.png
 
 Task 6: Transactions tested.
