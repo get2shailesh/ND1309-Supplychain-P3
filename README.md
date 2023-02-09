@@ -123,15 +123,15 @@ Starting migrations...
 1_initial_migration.js
 ======================
 
-   Deploying 'Migrations'
+   Replacing 'Migrations'
    ----------------------
-   > transaction hash:    0xbc65548259358b0f5d0e2c8168803f27386852bf4b13726761832037acdf45a0
-   > Blocks: 0            Seconds: 0
-   > contract address:    0x91231544AfEdEb1E098f92Ef82Cac5bBEc0fa4D1
-   > block number:        8462387
-   > block timestamp:     1675951176
+   > transaction hash:    0xc9289ff6aa22e821d301da41dc9365c87248ecfc058bf745d321a642f4c77267
+   > Blocks: 0            Seconds: 20
+   > contract address:    0x72121b2173Ade3eA87CA7473DcBc8D22B180C0BB
+   > block number:        8463368
+   > block timestamp:     1675965612
    > account:             0x27D8D15CbC94527cAdf5eC14B69519aE23288B95
-   > balance:             0.198105360363313081
+   > balance:             0.157114589240602222
    > gas used:            226537 (0x374e9)
    > gas price:           8.363488687 gwei
    > value sent:          0 ETH
@@ -140,16 +140,16 @@ Starting migrations...
    Pausing for 10 confirmations...
 
    --------------------------------
-   > confirmation number: 1 (block: 8462388)
-   > confirmation number: 2 (block: 8462389)
-   > confirmation number: 3 (block: 8462390)
-   > confirmation number: 4 (block: 8462391)
-   > confirmation number: 5 (block: 8462392)
-   > confirmation number: 6 (block: 8462393)
-   > confirmation number: 7 (block: 8462394)
-   > confirmation number: 8 (block: 8462395)
-   > confirmation number: 9 (block: 8462396)
-   > confirmation number: 10 (block: 8462397)
+   > confirmation number: 1 (block: 8463369)
+   > confirmation number: 2 (block: 8463370)
+   > confirmation number: 3 (block: 8463371)
+   > confirmation number: 4 (block: 8463372)
+   > confirmation number: 5 (block: 8463373)
+   > confirmation number: 6 (block: 8463374)
+   > confirmation number: 7 (block: 8463375)
+   > confirmation number: 8 (block: 8463376)
+   > confirmation number: 9 (block: 8463377)
+   > confirmation number: 10 (block: 8463378)
    > Saving migration to chain.
    > Saving artifacts
    -------------------------------------
@@ -161,13 +161,13 @@ Starting migrations...
 
    Deploying 'FarmerRole'
    ----------------------
-   > transaction hash:    0x092c85536bb6d97f008095dc097827bcbfff3522e75354177f24db19c4c9225a
-   > Blocks: 0            Seconds: 20
-   > contract address:    0x4ed91962D9F898727F1dF3dF82E0a0B7277AEd5f
-   > block number:        8462399
-   > block timestamp:     1675951332
+   > transaction hash:    0xdce571c9075ad81eb8e10b08ff0804929b67c19056b6fb529dd64310a81471f1
+   > Blocks: 1            Seconds: 12
+   > contract address:    0xe43333E63e8A856bb3e23CB8b3238eF0e2C0938D
+   > block number:        8463380
+   > block timestamp:     1675965792
    > account:             0x27D8D15CbC94527cAdf5eC14B69519aE23288B95
-   > balance:             0.195157673866045992
+   > balance:             0.154166902743335133
    > gas used:            306684 (0x4adfc)
    > gas price:           8.363488687 gwei
    > value sent:          0 ETH
@@ -176,26 +176,26 @@ Starting migrations...
    Pausing for 10 confirmations...
 
    --------------------------------
-   > confirmation number: 1 (block: 8462400)
-   > confirmation number: 2 (block: 8462401)
-   > confirmation number: 3 (block: 8462402)
-   > confirmation number: 4 (block: 8462403)
-   > confirmation number: 5 (block: 8462404)
-   > confirmation number: 6 (block: 8462405)
-   > confirmation number: 7 (block: 8462406)
-   > confirmation number: 8 (block: 8462407)
-   > confirmation number: 9 (block: 8462408)
-   > confirmation number: 10 (block: 8462409)
+   > confirmation number: 1 (block: 8463381)
+   > confirmation number: 2 (block: 8463382)
+   > confirmation number: 3 (block: 8463383)
+   > confirmation number: 4 (block: 8463384)
+   > confirmation number: 5 (block: 8463385)
+   > confirmation number: 6 (block: 8463386)
+   > confirmation number: 7 (block: 8463387)
+   > confirmation number: 8 (block: 8463388)
+   > confirmation number: 9 (block: 8463389)
+   > confirmation number: 10 (block: 8463390)
 
    Deploying 'DistributorRole'
    ---------------------------
-   > transaction hash:    0x9f44410860ac7a2bf9ced5c34d3f77032946a0017995609e35c47d0ba521dfd2
-   > Blocks: 1            Seconds: 20
-   > contract address:    0xFb5a9d39E8fB475f4A970A92C6594BA397f74988
-   > block number:        8462411
-   > block timestamp:     1675951524
+   > transaction hash:    0x418a2b02323802520ebe09761bd7d99ae789ce23c79533b88a76252fb84a3e01
+   > Blocks: 0            Seconds: 8
+   > contract address:    0x467B6CC911D854c712c2c9e129EFf5374e03094b
+   > block number:        8463391
+   > block timestamp:     1675965924
    > account:             0x27D8D15CbC94527cAdf5eC14B69519aE23288B95
-   > balance:             0.19254771340544865
+   > balance:             0.151556942282737791
    > gas used:            312066 (0x4c302)
    > gas price:           8.363488687 gwei
    > value sent:          0 ETH
@@ -204,26 +204,26 @@ Starting migrations...
    Pausing for 10 confirmations...
 
    --------------------------------
-   > confirmation number: 1 (block: 8462412)
-   > confirmation number: 2 (block: 8462413)
-   > confirmation number: 3 (block: 8462414)
-   > confirmation number: 4 (block: 8462415)
-   > confirmation number: 5 (block: 8462416)
-   > confirmation number: 6 (block: 8462417)
-   > confirmation number: 7 (block: 8462418)
-   > confirmation number: 8 (block: 8462419)
-   > confirmation number: 9 (block: 8462420)
-   > confirmation number: 10 (block: 8462421)
+   > confirmation number: 1 (block: 8463392)
+   > confirmation number: 2 (block: 8463393)
+   > confirmation number: 3 (block: 8463394)
+   > confirmation number: 4 (block: 8463395)
+   > confirmation number: 5 (block: 8463396)
+   > confirmation number: 6 (block: 8463397)
+   > confirmation number: 7 (block: 8463398)
+   > confirmation number: 8 (block: 8463399)
+   > confirmation number: 9 (block: 8463400)
+   > confirmation number: 10 (block: 8463401)
 
    Deploying 'RetailerRole'
    ------------------------
-   > transaction hash:    0xb35d0b8cf14c7ac08c49bd658923bacfd9c84cf7294087018235e70514f15c98
-   > Blocks: 0            Seconds: 8
-   > contract address:    0x9D5A39f3c899B8072Be569ba86E47fd8E06b3cBf
-   > block number:        8462422
-   > block timestamp:     1675951704
+   > transaction hash:    0x191a93afe5ea331b403047e9243ac7cfba5f9b73c71ee85a2b904c335ceca5d0
+   > Blocks: 1            Seconds: 24
+   > contract address:    0x094afEbCd206B5C956557d0C1c336A8B7250EEa4
+   > block number:        8463402
+   > block timestamp:     1675966092
    > account:             0x27D8D15CbC94527cAdf5eC14B69519aE23288B95
-   > balance:             0.189937652582987064
+   > balance:             0.148946881460276205
    > gas used:            312078 (0x4c30e)
    > gas price:           8.363488687 gwei
    > value sent:          0 ETH
@@ -232,26 +232,26 @@ Starting migrations...
    Pausing for 10 confirmations...
 
    --------------------------------
-   > confirmation number: 1 (block: 8462423)
-   > confirmation number: 2 (block: 8462424)
-   > confirmation number: 3 (block: 8462425)
-   > confirmation number: 4 (block: 8462426)
-   > confirmation number: 5 (block: 8462427)
-   > confirmation number: 6 (block: 8462428)
-   > confirmation number: 7 (block: 8462429)
-   > confirmation number: 8 (block: 8462430)
-   > confirmation number: 9 (block: 8462431)
-   > confirmation number: 10 (block: 8462432)
+   > confirmation number: 1 (block: 8463403)
+   > confirmation number: 2 (block: 8463404)
+   > confirmation number: 3 (block: 8463405)
+   > confirmation number: 4 (block: 8463406)
+   > confirmation number: 5 (block: 8463407)
+   > confirmation number: 6 (block: 8463408)
+   > confirmation number: 7 (block: 8463409)
+   > confirmation number: 8 (block: 8463410)
+   > confirmation number: 9 (block: 8463411)
+   > confirmation number: 10 (block: 8463412)
 
    Deploying 'ConsumerRole'
    ------------------------
-   > transaction hash:    0x1b1946ef507a201f35cb80a9c7b681601cde87f3bcf1d8babef077bd4f2a2598
-   > Blocks: 2            Seconds: 17
-   > contract address:    0x37a6afEC0589dBcAbb5e084652361156401Cc7CE
-   > block number:        8462434
-   > block timestamp:     1675951860
+   > transaction hash:    0x9d1ef453d1ccb887f2a7d511b2802e0a6b9bfb6550b91e50921b07e75f7f0faa
+   > Blocks: 0            Seconds: 8
+   > contract address:    0x107fE93F45b2d56Ec722577f337829259fe19f99
+   > block number:        8463413
+   > block timestamp:     1675966236
    > account:             0x27D8D15CbC94527cAdf5eC14B69519aE23288B95
-   > balance:             0.187327591760525478
+   > balance:             0.146336820637814619
    > gas used:            312078 (0x4c30e)
    > gas price:           8.363488687 gwei
    > value sent:          0 ETH
@@ -260,53 +260,53 @@ Starting migrations...
    Pausing for 10 confirmations...
 
    --------------------------------
-   > confirmation number: 1 (block: 8462435)
-   > confirmation number: 2 (block: 8462436)
-   > confirmation number: 3 (block: 8462437)
-   > confirmation number: 4 (block: 8462438)
-   > confirmation number: 5 (block: 8462439)
-   > confirmation number: 6 (block: 8462440)
-   > confirmation number: 7 (block: 8462441)
-   > confirmation number: 8 (block: 8462442)
-   > confirmation number: 9 (block: 8462443)
-   > confirmation number: 10 (block: 8462444)
+   > confirmation number: 1 (block: 8463414)
+   > confirmation number: 2 (block: 8463415)
+   > confirmation number: 3 (block: 8463416)
+   > confirmation number: 4 (block: 8463417)
+   > confirmation number: 5 (block: 8463418)
+   > confirmation number: 6 (block: 8463419)
+   > confirmation number: 7 (block: 8463420)
+   > confirmation number: 8 (block: 8463421)
+   > confirmation number: 9 (block: 8463422)
+   > confirmation number: 10 (block: 8463423)
 
    Deploying 'SupplyChain'
    -----------------------
-   > transaction hash:    0x920698ce993a5121cdb6afe7bd7fc92d0602e831d3b3a7b9ff3a139bd9b0aebf
-   > Blocks: 0            Seconds: 4
-   > contract address:    0x8c7E1c25df2e4f51d8A8F5b4c1888401C33A2F60
-   > block number:        8462445
-   > block timestamp:     1675952028
+   > transaction hash:    0x2eb0984e33a1cfcb9668b046df0a806e8f7c4e6c5ab8ebdf8440db129cb851d0
+   > Blocks: 1            Seconds: 12
+   > contract address:    0x1133717762e240e1282CD4a2027bFd6e1b144389
+   > block number:        8463424
+   > block timestamp:     1675966404
    > account:             0x27D8D15CbC94527cAdf5eC14B69519aE23288B95
-   > balance:             0.161526329522994722
-   > gas used:            3084988 (0x2f12bc)
+   > balance:             0.12099304959495145
+   > gas used:            3030287 (0x2e3d0f)
    > gas price:           8.363488687 gwei
    > value sent:          0 ETH
-   > total cost:          0.025801262237530756 ETH
+   > total cost:          0.025343771042863169 ETH
 
    Pausing for 10 confirmations...
 
    --------------------------------
-   > confirmation number: 1 (block: 8462446)
-   > confirmation number: 2 (block: 8462447)
-   > confirmation number: 3 (block: 8462448)
-   > confirmation number: 4 (block: 8462449)
-   > confirmation number: 5 (block: 8462450)
-   > confirmation number: 6 (block: 8462451)
-   > confirmation number: 7 (block: 8462452)
-   > confirmation number: 8 (block: 8462453)
-   > confirmation number: 9 (block: 8462454)
-   > confirmation number: 10 (block: 8462455)
+   > confirmation number: 1 (block: 8463425)
+   > confirmation number: 2 (block: 8463426)
+   > confirmation number: 3 (block: 8463427)
+   > confirmation number: 4 (block: 8463428)
+   > confirmation number: 5 (block: 8463429)
+   > confirmation number: 6 (block: 8463430)
+   > confirmation number: 7 (block: 8463431)
+   > confirmation number: 8 (block: 8463432)
+   > confirmation number: 9 (block: 8463433)
+   > confirmation number: 10 (block: 8463434)
    > Saving migration to chain.
    > Saving artifacts
    -------------------------------------
-   > Total cost:     0.036196292507535178 ETH
+   > Total cost:     0.035738801312867591 ETH
 
 Summary
 =======
 > Total deployments:   6
-> Final cost:          0.038090932144222097 ETH
+> Final cost:          0.03763344094955451 ETH
 
 ------------------------------------------
 Log of test:
@@ -364,17 +364,23 @@ Task 3: Contract was deployed on Goerli network. Following is the latest:
 
 •	“Contract Address” on the Goerli Network:
 
-•	https://goerli.etherscan.io/address/0x8c7E1c25df2e4f51d8A8F5b4c1888401C33A2F60
+•	https://goerli.etherscan.io/address/0x1133717762e240e1282CD4a2027bFd6e1b144389
 
-•	Contract: 0x8c7E1c25df2e4f51d8A8F5b4c1888401C33A2F60
+•	Contract: 0x1133717762e240e1282CD4a2027bFd6e1b144389
 
 [The following details are from the initial contract deployment for initial submission, as per the feedback, I have re-deployed the contract]
 
 •	Initial “Contract Address” on the Goerli Network:
-
+For second review:
+https://goerli.etherscan.io/address/0x8c7E1c25df2e4f51d8A8F5b4c1888401C33A2F60
+For first review:
 https://goerli.etherscan.io/address/0xFB1e9CF1D94fb443a07aA84DB5FAd869784dCa55
 
-•	Initial Contract for reference: 0xFB1e9CF1D94fb443a07aA84DB5FAd869784dCa55]
+•	Initial Contract for reference: 
+For second review:
+0x8c7E1c25df2e4f51d8A8F5b4c1888401C33A2F60
+For first review:
+0xFB1e9CF1D94fb443a07aA84DB5FAd869784dCa55]
 
 Task 4: The application was successfully invoked to perform certain functions.
 
