@@ -12,7 +12,7 @@ import "../coffeeaccesscontrol/ConsumerRole.sol";
 contract SupplyChain is Ownable, FarmerRole, DistributorRole, RetailerRole, ConsumerRole {
 
   // Define 'owner'
-  address owner;
+  // address owner; -- SD: Commented this since its already deifned in ownable.sol
 
   // Define a variable called 'upc' for Universal Product Code (UPC)
   uint  upc;
@@ -72,11 +72,12 @@ contract SupplyChain is Ownable, FarmerRole, DistributorRole, RetailerRole, Cons
   event Purchased(uint upc);
 
   // Define a modifer that checks to see if msg.sender == owner of the contract
+  /* -- SD: Commented onlyOwner Ownable already has this modifiers and many functions
   modifier onlyOwner() {
     require(msg.sender == owner);
     _;
   }
-
+*/
   // Define a modifer that verifies the Caller
   modifier verifyCaller (address _address) {
     require(msg.sender == _address); 
@@ -155,7 +156,7 @@ contract SupplyChain is Ownable, FarmerRole, DistributorRole, RetailerRole, Cons
   // and set 'sku' to 1
   // and set 'upc' to 1
   constructor() public payable {
-    owner = msg.sender;
+    //owner = msg.sender; - commenting this since owner is not defined here.
     sku = 1;
     upc = 1;
   }
